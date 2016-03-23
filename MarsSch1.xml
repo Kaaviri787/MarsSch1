@@ -22,23 +22,19 @@
                   </block>
                 </value>
                 <next>
-                  <block type="movement_stutter" id="179">
+                  <block type="comment_comment" id="254">
+                    <field name="TEXT">Kaaviri is amazing</field>
                     <next>
-                      <block type="comment_comment" id="254">
-                        <field name="TEXT">Kaaviri is amazing</field>
+                      <block type="movement_reverse" id="152">
                         <next>
-                          <block type="movement_reverse" id="152">
-                            <next>
-                              <block type="robot_delay" id="155" inline="true">
-                                <value name="DELAY">
-                                  <block type="math_number" id="156">
-                                    <field name="NUM">4857</field>
-                                  </block>
-                                </value>
-                                <next>
-                                  <block type="movement_stop" id="68"></block>
-                                </next>
+                          <block type="robot_delay" id="155" inline="true">
+                            <value name="DELAY">
+                              <block type="math_number" id="156">
+                                <field name="NUM">4857</field>
                               </block>
+                            </value>
+                            <next>
+                              <block type="movement_stop" id="68"></block>
                             </next>
                           </block>
                         </next>
