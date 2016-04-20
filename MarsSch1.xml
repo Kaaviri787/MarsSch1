@@ -58,35 +58,27 @@
                         <next>
                           <block type="movement_left" id="147">
                             <next>
-                              <block type="movement_stop" id="158">
+                              <block type="movement_reverse" id="12">
                                 <next>
-                                  <block type="movement_reverse" id="12">
+                                  <block type="robot_delay" id="13" inline="true">
+                                    <value name="DELAY">
+                                      <block type="math_number" id="14">
+                                        <field name="NUM">530</field>
+                                      </block>
+                                    </value>
                                     <next>
-                                      <block type="robot_delay" id="13" inline="true">
-                                        <value name="DELAY">
-                                          <block type="math_number" id="14">
-                                            <field name="NUM">530</field>
-                                          </block>
-                                        </value>
+                                      <block type="movement_right" id="157">
                                         <next>
-                                          <block type="movement_right" id="157">
+                                          <block type="movement_forward" id="35">
                                             <next>
-                                              <block type="movement_stop" id="159">
-                                                <next>
-                                                  <block type="movement_forward" id="35">
-                                                    <next>
-                                                      <block type="robot_delay" id="37" inline="true">
-                                                        <value name="DELAY">
-                                                          <block type="math_number" id="51">
-                                                            <field name="NUM">530</field>
-                                                          </block>
-                                                        </value>
-                                                        <next>
-                                                          <block type="movement_stop" id="15"></block>
-                                                        </next>
-                                                      </block>
-                                                    </next>
+                                              <block type="robot_delay" id="37" inline="true">
+                                                <value name="DELAY">
+                                                  <block type="math_number" id="51">
+                                                    <field name="NUM">530</field>
                                                   </block>
+                                                </value>
+                                                <next>
+                                                  <block type="movement_stop" id="15"></block>
                                                 </next>
                                               </block>
                                             </next>
