@@ -22,7 +22,7 @@
                   </block>
                 </value>
                 <next>
-                  <block type="multimedia_displaybmp" id="22">
+                  <block type="multimedia_displaybmp" id="8">
                     <field name="BMP">Ooh, look! Is that Q-Cutter</field>
                     <next>
                       <block type="movement_reverse" id="9">
